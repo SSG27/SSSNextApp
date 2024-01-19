@@ -1,0 +1,13 @@
+.nav {
+    font-size: 20px;
+    color: aquamarine;
+    padding: 20px 20px;
+    position: 'relative';
+    z-index: 1;
+
+
+}
+
+a {
+    color: aquamarine;
+}
