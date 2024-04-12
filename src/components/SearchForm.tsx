@@ -30,7 +30,7 @@ const SearchForm: React.FC<SearchFormProps> = ({ handleSubmit, handleChange, inp
       </label>
       <br></br>
       {/* creates submit button */}
-      <input type="submit" className='button'/>
+      <input type="submit" className='button' data-testid="submit-button"/>
     </form>
   );
 };

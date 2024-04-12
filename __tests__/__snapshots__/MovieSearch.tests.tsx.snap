@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders MovieSearch component 1`] = `
+<div>
+  <form>
+    <br />
+    <label
+      class="form"
+    >
+      Enter the movie title:
+      <input
+        name="movietitle"
+        type="text"
+        value=""
+      />
+    </label>
+    <br />
+    <label>
+      Enter the two letter country code (e.g gb):
+      <input
+        name="moviecountry"
+        type="text"
+        value=""
+      />
+    </label>
+    <br />
+    <input
+      class="button"
+      data-testid="submit-button"
+      type="submit"
+    />
+  </form>
+</div>
+`;
