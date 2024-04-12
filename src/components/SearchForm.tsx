@@ -14,7 +14,7 @@ const SearchForm: React.FC<SearchFormProps> = ({ handleSubmit, handleChange, inp
   return (
     <form onSubmit={handleSubmit}>
       <br></br>
-      <label>Enter the movie title: 
+      <label className='form'>Enter the movie title: 
         <input type="text" 
         name = "movietitle"
         value={inputs.movietitle || ""} 
