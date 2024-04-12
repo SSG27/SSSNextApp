@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testExecutions version="1">
-  <file path="test/MovieSearch.tests.tsx">
+  <file path="__tests__/MovieSearch.tests.tsx">
     <testCase name="updates state on user input" duration="8"/>
   </file>
 </testExecutions>
