@@ -19,18 +19,24 @@ const SearchForm: React.FC<SearchFormProps> = ({ handleSubmit, handleChange, inp
         name = "movietitle"
         value={inputs.movietitle || ""} 
         onChange={handleChange}
+        data-testid="movie-title-input"
         />
       </label>
       <br></br>
       <label>Enter the two letter country code (e.g gb): 
-        <input type="text"name = "moviecountry"
+        <input type="text"
+        name = "moviecountry"
         value={inputs.moviecountry || ""} 
         onChange={handleChange}
+        data-testid="country-code-input"
         />
       </label>
       <br></br>
       {/* creates submit button */}
-      <input type="submit" className='button' data-testid="submit-button"/>
+      <input type="submit" 
+      className='button' 
+      data-testid="submit-button"
+      />
     </form>
   );
 };
