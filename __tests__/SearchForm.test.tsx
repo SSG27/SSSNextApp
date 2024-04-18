@@ -17,7 +17,7 @@ it('updates state on user input', () => {
 
   // Manually trigger user input for movie title
   renderer.act(() => {
-    userEvent.type(tree.children[1].children[1], 'dunkirk'); // Assuming the movie title input is at index 1
+    userEvent.type(tree.children[1].children[1], 'dunkirk');
   });
 
   // Re-rendering after user input
@@ -26,7 +26,7 @@ it('updates state on user input', () => {
 
   // Manually trigger user input for country code
   renderer.act(() => {
-    userEvent.type(tree.children[3].children[1], 'gb'); // Assuming the country code input is at index 3
+    userEvent.type(tree.children[3].children[1], 'gb');
     userEvent.click(tree.children[5]);
   });
 
