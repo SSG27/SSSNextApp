@@ -1,0 +1,106 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`updates state on user input 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <br />
+  <label
+    className="form"
+  >
+    Enter the movie title:
+    <input
+      name="movietitle"
+      onChange={[Function]}
+      type="text"
+      value=""
+    />
+  </label>
+  <br />
+  <label>
+    Enter the two letter country code (e.g gb):
+    <input
+      name="moviecountry"
+      onChange={[Function]}
+      type="text"
+      value=""
+    />
+  </label>
+  <br />
+  <input
+    className="button"
+    data-testid="submit-button"
+    type="submit"
+  />
+</form>
+`;
+
+exports[`updates state on user input 2`] = `
+<form
+  onSubmit={[Function]}
+>
+  <br />
+  <label
+    className="form"
+  >
+    Enter the movie title:
+    <input
+      name="movietitle"
+      onChange={[Function]}
+      type="text"
+      value=""
+    />
+  </label>
+  <br />
+  <label>
+    Enter the two letter country code (e.g gb):
+    <input
+      name="moviecountry"
+      onChange={[Function]}
+      type="text"
+      value=""
+    />
+  </label>
+  <br />
+  <input
+    className="button"
+    data-testid="submit-button"
+    type="submit"
+  />
+</form>
+`;
+
+exports[`updates state on user input 3`] = `
+<form
+  onSubmit={[Function]}
+>
+  <br />
+  <label
+    className="form"
+  >
+    Enter the movie title:
+    <input
+      name="movietitle"
+      onChange={[Function]}
+      type="text"
+      value=""
+    />
+  </label>
+  <br />
+  <label>
+    Enter the two letter country code (e.g gb):
+    <input
+      name="moviecountry"
+      onChange={[Function]}
+      type="text"
+      value=""
+    />
+  </label>
+  <br />
+  <input
+    className="button"
+    data-testid="submit-button"
+    type="submit"
+  />
+</form>
+`;
