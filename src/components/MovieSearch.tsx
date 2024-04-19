@@ -43,7 +43,6 @@ const MovieSearch: React.FC = () => {
             setResponseData(response.data);
             setError(null);
         } catch (myError) {
-            console.error(myError);
             alert("Error: Bad input \nPlease enter a valid movie title and counrty code");
             setError("An error occured");
         }
