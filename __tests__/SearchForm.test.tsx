@@ -14,15 +14,15 @@ it('updates state on user input', () => {
     );
 
     // Manually trigger user input for movie title
-
     const titleInput = screen.getByTestId("movie-title-input")
     userEvent.type(titleInput, 'dunkirk');
 
     // Manually trigger user input for country code
-
     const ccInput = screen.getByTestId("country-code-input")
-    const buttonClicked = screen.getByTestId("submit-button")
     userEvent.type(ccInput, 'gb');
+
+    // Manually trigger user pressing button
+    const buttonClicked = screen.getByTestId("submit-button")
     userEvent.click(buttonClicked);
 
 });
